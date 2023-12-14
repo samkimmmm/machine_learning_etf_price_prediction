@@ -32,7 +32,7 @@ The model underwent iterative optimization by adjusting layers and LSTM units, i
 * The program takes the last 100 data points from the test data, and reshape it into a NumPy array in preparation for making predictions
 * We then convert it into a list. Using this list we create a while loop set for I<30. (Trying to predict 30 days into the future)
 * we are using what is know as the sliding window technique for time series forecasting
-* Using Matplot lib, we create a basic graph showing historical prices for the previous 100 days in blue, then plot another line for the following 30 days in yellow. (INSERT PREDICTION PIC)
+* Using Matplot lib, we create a basic graph showing historical prices for the previous 100 days in blue, then plot another line for the following 30 days in yellow.
 * For comparison, we graphed available December data in tableau, placing prediction vs reality side by side.
 
 # Prediction and visualization
