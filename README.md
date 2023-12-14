@@ -18,7 +18,14 @@ Visualization Program used: Tableau
 The history of stocks has become significantly popular after the dot-com boom. With the advancement of technology, anyone is able to access and trade.  The goal for this project is to uncover different patterns of past data to predict future stocks, specifically in the healthcare sector. 
 
 # Model Selection:
-
+* Obtained 5 years' worth of stock data for S&P 500 stocks on Kaggle, including daily metrics like opening and closing prices, high and low, volume, dividends, and stock splits.
+* Loaded the data into a data frame and narrowed it down to 10 healthcare stocks.
+* Preprocessed the data using the Train and Test method, focusing on the closing price over the previous 5 years.
+* Considered various machine learning models and narrowed down the selection to Linear Regression and Long Short-Term Memory (LSTM).
+* Chose LSTM over Linear Regression for better accuracy, despite being slower.
+* Developed an initial LSTM model with three layers of 50 units each and a dense layer with a single unit.
+* Fit the data using 100 epochs and 64 batches, taking approximately 6 minutes per stock, achieving 97-98% accuracy.
+* Recognized the need for optimization to improve both speed and accuracy of the model.
 
 # Model Optimization:
 The model underwent iterative optimization by adjusting layers and LSTM units, initially achieving R-squared values of .95 (training) and .77 (testing) within 30 seconds. Ultimately, after balancing complexity and runtime, the optimized model achieved an R-squared of .98 (training) and .90 (testing) within approximately 3 minutes, meeting project objectives despite the tradeoff between increased performance and computational resources.
@@ -31,12 +38,25 @@ The model underwent iterative optimization by adjusting layers and LSTM units, i
 # Prediction and visualization
 The trained model is used to predict stock prices for the next 30 days. The results are visualized alongside the actual stock prices to assess the model's predictive accuracy. Following an analysis of our LSTM model for stock price prediction, we examined its performance on Johnson & Johnson and Pfizer stocks. While accurately forecasting a decline for JNJ, challenges arose with Pfizer, highlighting a 30% overall model accuracy. Recognizing the need for improvement, we acknowledge the impact of sudden market shifts and emphasize a strategic, risk-managed approach for real-life applications, emphasizing continuous model refinement and diversified investment decisions.
 
-
-# Training the Model:
-The model is trained on the training dataset for 100 epochs with a batch size of 64. Training and validation performance metrics are monitored to ensure convergence.
-# Model Evaluation:
-The performance of the trained model is evaluated using the Root Mean Squared Error (RMSE) on both the training and testing datasets.
-# Prediction and Visualization:
-The trained model is used to predict stock prices for the next 30 days. The results are visualized alongside the actual stock prices to assess the model's predictive accuracy. Following an analysis of our LSTM model for stock price prediction, we examined its performance on Johnson & Johnson and Pfizer stocks. While accurately forecasting a decline for JNJ, challenges arose with Pfizer, highlighting a 30% overall model accuracy. Recognizing the need for improvement, we acknowledge the impact of sudden market shifts and emphasize a strategic, risk-managed approach for real-life applications, emphasizing continuous model refinement and diversified investment decisions.
 # Conclusion:
-The LSTM model demonstrates its effectiveness in capturing sequential dependencies in time-series data, making it a powerful tool for predicting stock prices. The choice of this model, along with proper data preprocessing and feature engineering, contributes to accurate and meaningful predictions. The visualizations provide insights into the model's ability to forecast stock prices, aiding decision-making processes for investors and analysts.
+
+# Unquantifiable Factors:
+* Presentation on historical performance trends of Johnson & Johnson (J&J) and Pfizer
+* Focus on understanding factors shaping current stock prices and potential future impact
+* Johnson & Johnson (J&J):
+  * Demonstrated resilience amid market fluctuations
+  * Diversified portfolio in pharmaceuticals, medical devices, and consumer health products
+  * Consistent recovery despite legal issues related to some products
+Steady growth with periodic dips linked to external events like lawsuits or regulatory concerns
+Pfizer:
+Adaptability and growth, known for pharmaceutical breakthroughs
+Market fluctuations influenced by product developments, patent expirations, and strategic decisions
+Success driven by release of drugs and vaccines
+Setbacks include patent expirations and challenges in drug development, but consistent rebounds
+Current stock prices influenced by recent events, particularly the global pandemic
+Factors influencing future stock performance:
+Regulatory approvals, product pipelines, and market demand for healthcare products
+Ongoing research and development efforts and adaptation to market dynamics
+Conclusion emphasizes resilience and ability of both companies to weather challenges
+Strategic decisions, innovations, and responses to external factors will shape future stock prices
+Importance for investors to understand dynamics in the pharmaceutical industry
