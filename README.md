@@ -49,14 +49,14 @@ The trained model is used to predict stock prices for the next 30 days. The resu
   * Consistent recovery despite legal issues related to some products
   * Steady growth with periodic dips linked to external events like lawsuits or regulatory concerns
 * Pfizer:
- * Adaptability and growth, known for pharmaceutical breakthroughs
- * Market fluctuations influenced by product developments, patent expirations, and strategic decisions
- * Success driven by release of drugs and vaccines
- * Setbacks include patent expirations and challenges in drug development, but consistent rebounds
+  * Adaptability and growth, known for pharmaceutical breakthroughs
+  * Market fluctuations influenced by product developments, patent expirations, and strategic decisions
+  * Success driven by release of drugs and vaccines
+  * Setbacks include patent expirations and challenges in drug development, but consistent rebounds
 * Current stock prices influenced by recent events, particularly the global pandemic
 * Factors influencing future stock performance:
- * Regulatory approvals, product pipelines, and market demand for healthcare products
- * Ongoing research and development efforts and adaptation to market dynamics
+  * Regulatory approvals, product pipelines, and market demand for healthcare products
+  * Ongoing research and development efforts and adaptation to market dynamics
 * Conclusion emphasizes resilience and ability of both companies to weather challenges
 * Strategic decisions, innovations, and responses to external factors will shape future stock prices
 * Importance for investors to understand dynamics in the pharmaceutical industry
