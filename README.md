@@ -14,7 +14,8 @@ The aim of our project is to uncover the patterns in the stock market with the p
 * Sang Kim
 
 # Introduction
-The objective of this project is to predict the stock prices for the next 30 days of the top healthcare companies using machine learning. The chosen model for this prediction is based on Long Short-Term Memory (LSTM) neural networks, a type of recurrent neural network (RNN). The LSTM model is particularly suitable for sequential data like time-series, making it a valuable choice for predicting stock prices over time.
+The history of stocks has become significantly popular after the dot-com boom. With the advancement of technology, anyone is able to access and trade.  The goal for this project is to uncover different patterns of past data to predict future stocks, specifically in the healthcare sector. 
+
 # Model Selection:
 The LSTM model is selected for its ability to capture and learn patterns in sequential data, making it well-suited for time-series forecasting. Unlike traditional feedforward neural networks, LSTMs can remember information over long periods, which is crucial for predicting stock prices where past data points hold significant influence.
 # Data Preparation:
