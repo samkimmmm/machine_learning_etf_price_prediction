@@ -39,6 +39,14 @@ The model underwent iterative optimization by adjusting layers and LSTM units, i
 The trained model is used to predict stock prices for the next 30 days. The results are visualized alongside the actual stock prices to assess the model's predictive accuracy. Following an analysis of our LSTM model for stock price prediction, we examined its performance on Johnson & Johnson and Pfizer stocks. While accurately forecasting a decline for JNJ, challenges arose with Pfizer, highlighting a 30% overall model accuracy. Recognizing the need for improvement, we acknowledge the impact of sudden market shifts and emphasize a strategic, risk-managed approach for real-life applications, emphasizing continuous model refinement and diversified investment decisions.
 
 # Conclusion:
+* Project Overview:The collaborative effort of our team culminated in a comprehensive project focused on forecasting stock prices, specifically within the healthcare sector.
+* Historical Context:Explored the evolution of stock trading throughout history, offering a contextual foundation for our project's objectives.
+* Utilizing Machine Learning:Employed the capabilities of machine learning, utilizing an LSTM model to predict future stock prices with precision.
+* Technical Implementation:Illustrated the creation of our predictive model, employing the sliding window technique and Matplotlib for effective data visualization.
+* Insights from Data Exploration:Shared key insights gained during the decision-making process, leading us to choose the LSTM model over Linear Regression, informed by a detailed exploration of our data.
+* Optimizing Model Performance:Discussed the optimization process, ensuring a harmonious balance between accuracy and efficiency in our predictive model.
+* Revealing Core Discoveries:Unveiled the effectiveness of the LSTM model in capturing sequential dependencies, serving as the foundational element of our predictive capabilities.
+* Project Conclusion:Emphasized the robust capabilities of our LSTM model, offering valuable insights for investors and analysts navigating the intricate landscape of stock trading.
 
 # Unquantifiable Factors:
 * Presentation on historical performance trends of Johnson & Johnson (J&J) and Pfizer
