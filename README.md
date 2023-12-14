@@ -1,7 +1,9 @@
 # Stock Price Prediction using LSTM Neural Networks
 Project 4 - Machine Learning
 
-Languages used: Python  Databases used: PySpark, Pandas, Matplotlib, Tensorflow, Numpy, Scikit Learn  Visualization Program used: Tableau
+Languages used: Python <br />
+Databases used: PySpark, Pandas, Matplotlib, Tensorflow, Numpy, Scikit Learn <br />
+Visualization Program used: Tableau <br />
 
 # Project Contributors
 * Octavio Pinedo
