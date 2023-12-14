@@ -28,12 +28,10 @@ The model underwent iterative optimization by adjusting layers and LSTM units, i
 * Using Matplot lib, we create a basic graph showing historical prices for the previous 100 days in blue, then plot another line for the following 30 days in yellow. (INSERT PREDICTION PIC)
 * For comparison, we graphed available December data in tableau, placing prediction vs reality side by side.
 
-# Data Scaling:
-Before feeding the data into the LSTM model, it is essential to normalize the data. The Min-Max scaling technique is applied to rescale the closing prices to a range between 0 and 1. This normalization ensures that the model can effectively learn from the data without being affected by the varying scales of the input features.
-# Data Splitting and Feature Engineering:
-The dataset is split into training and testing sets. The time-series data is then converted into sequences of input features (X) and corresponding output labels (y). This process involves creating a sliding window over the time-series data, where each window represents a set of input features and their corresponding output label.
-# LSTM Model Architecture:
-The LSTM model is constructed using the Keras API, which is integrated into TensorFlow. The architecture consists of multiple LSTM layers followed by a Dense output layer. The model is compiled using the Mean Squared Error (MSE) loss function and the Adam optimizer.
+# Prediction and visualization
+The trained model is used to predict stock prices for the next 30 days. The results are visualized alongside the actual stock prices to assess the model's predictive accuracy. Following an analysis of our LSTM model for stock price prediction, we examined its performance on Johnson & Johnson and Pfizer stocks. While accurately forecasting a decline for JNJ, challenges arose with Pfizer, highlighting a 30% overall model accuracy. Recognizing the need for improvement, we acknowledge the impact of sudden market shifts and emphasize a strategic, risk-managed approach for real-life applications, emphasizing continuous model refinement and diversified investment decisions.
+
+
 # Training the Model:
 The model is trained on the training dataset for 100 epochs with a batch size of 64. Training and validation performance metrics are monitored to ensure convergence.
 # Model Evaluation:
