@@ -38,6 +38,7 @@ The model underwent iterative optimization by adjusting layers and LSTM units, i
 # Prediction and visualization
 The trained model is used to predict stock prices for the next 30 days. The results are visualized alongside the actual stock prices to assess the model's predictive accuracy. Following an analysis of our LSTM model for stock price prediction, we examined its performance on Johnson & Johnson and Pfizer stocks. While accurately forecasting a decline for JNJ, challenges arose with Pfizer, highlighting a 30% overall model accuracy. Recognizing the need for improvement, we acknowledge the impact of sudden market shifts and emphasize a strategic, risk-managed approach for real-life applications, emphasizing continuous model refinement and diversified investment decisions.
 
+![Screenshot 2023-12-13 at 9 31 12 PM](https://github.com/samkimmmm/machine_learning_etf_price_prediction/assets/135805393/b05d3c6c-1925-4516-b7b0-f9c0ca0fbd08)
 ![Screenshot 2023-12-13 at 9 30 39 PM](https://github.com/samkimmmm/machine_learning_etf_price_prediction/assets/135805393/957c6776-16fc-4654-b757-02e917226599)
 
 # Conclusion:
